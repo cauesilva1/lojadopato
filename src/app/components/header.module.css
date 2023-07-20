@@ -1,0 +1,40 @@
+.header{
+    width: 100%;
+    height: 7rem;
+    background-color: #F2D111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+.estiloLogo{
+    font-size: 3rem;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 4rem;
+}
+
+.logo{
+    margin-left: 4rem;
+}
+
+.login{
+    background-color: #F2D111;
+    border: none;
+    color: inherit;
+  text-decoration: none;
+}
+.estiloLogo:hover{
+    transition: 0.4s;
+    font-size: 3.5rem;
+    border: 3.5px solid rgb(255, 255, 255);
+    border-radius: 4rem;
+    cursor: pointer;
+    text-decoration: none;
+}
